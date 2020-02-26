@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear:both;
+}
+
+.Purchases_list{
+  max-width: 662px;
+  margin: 0 auto;
+}
+.inputForms{
+  float: left;
+}
+.inputForms > input{
+  width: 100%;
+}
+.inputForms > select{
+  width: 100%;
+}
+.inputForms > textarea{
+  width: 489px;
+  display: block;
+  height: 97px;
+  max-width: 489;
+  max-height: 97px;
+}
+
+.Form_buttons{
+
+}
+.Purchase p:nth-child(1){
+  margin-right: 10px;
+}
+.Purchase{
+  max-width: 530px;
+}
+
+.Purchase > p{
+  display: inline-block;
+}
